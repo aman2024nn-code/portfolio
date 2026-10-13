@@ -445,6 +445,94 @@ body{
     animation: none;
     opacity: 1;
   }
+    @media (max-width: 768px) {
+  .navbar {
+    padding: 1rem;
+  }
+
+  .navbar ul {
+    margin-left: 0;
+    gap: 1rem;
+  }
+
+  .hero {
+    height: auto;
+    min-height: 100vh;
+    padding: 2rem 1.5rem;
+  }
+
+  .herotext {
+    max-width: 100%;
+    margin-top: 2rem;
+  }
+
+  .herotext h1 {
+    font-size: 2.2rem;
+  }
+
+  .about {
+    height: auto;
+    padding: 3rem 1.5rem;
+  }
+
+  .about h1 {
+    font-size: 2rem;
+  }
+
+  .skill {
+    padding: 3rem 1.5rem;
+  }
+
+  .skill-carousel::before,
+  .skill-carousel::after {
+    width: 2rem;
+  }
+
+  .contact {
+    padding: 3rem 1.5rem;
+  }
+
+  .contact-form {
+    padding: 1.5rem;
+  }
+
+  .footer {
+    padding: 3rem 1.5rem 1.5rem;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar ul {
+    gap: 0.6rem;
+  }
+
+  .navbar ul li a {
+    font-size: 0.85rem;
+    padding: 0.2rem 0.1rem;
+  }
+
+  .herotext h1 {
+    font-size: 2rem;
+  }
+
+  .job {
+    font-size: 1rem;
+  }
+
+  .skill-card {
+    flex: 0 0 180px;
+    height: 200px;
+  }
+
+  .contact-btn {
+    width: 100%;
+  }
+}
 }
 
 
