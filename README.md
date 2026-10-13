@@ -67,9 +67,9 @@ portfolio/
 ## Contact
 
 - GitHub: [aman2024nn-code](https://github.com/aman2024nn-code)
-- Email: _add your email here_
-- LinkedIn: _add your link here_
+- Email: aman.2025nn@gmail.com
+- LinkedIn: 
 
 ## License
 
-This project is open source. Add a license (for example MIT) if you want others to reuse it.
+This project is open source. 
