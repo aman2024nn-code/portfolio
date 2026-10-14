@@ -155,7 +155,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-     padding: 4rem 6rem;
+    padding: 4rem 6rem;
     background-color: var(--about-bg);
 }
 .about h1{
